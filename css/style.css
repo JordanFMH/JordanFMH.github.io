@@ -411,6 +411,33 @@ body{
             }
             .ocultarBoton{
                 display: none;
+            } 
+        }
+        main{
+            .main-section-mision{
+                .main-mision{
+                    h3{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 25px;
+                    }
+                }
+            }
+            .main-section-vision{
+                .main-vision{
+                    h3{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 25px;
+                    }
+                }
+            }
+            .main-carrusel{
+                h3{
+                    font-size: 40px;
+                }
             }
         }
         footer{
@@ -424,6 +451,7 @@ body{
                     }
                 }
             }
+            
         }
     }
 }
@@ -435,9 +463,9 @@ body{
                     ul{
                         li{
                             a{
-                                font-size: 35px;
+                                font-size: 30px;
                                 i{
-                                    font-size: 40px;
+                                    font-size: 30px;
                                 }
                             }
                         }
@@ -449,9 +477,9 @@ body{
                         li{
                             text-align: center;
                             a{
-                                font-size: 35px;
+                                font-size: 30px;
                                 i{
-                                    font-size: 40px;
+                                    font-size: 30px;
                                 }
                             }
                         }
@@ -522,7 +550,7 @@ body{
                         font-size: 40px;
                     }
                     p{
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -532,7 +560,7 @@ body{
                         font-size: 40px;
                     }
                     p{
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                 }
             }
