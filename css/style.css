@@ -35,8 +35,23 @@ body{
                         color: black;
                     }
                 }
-                li:hover{
-                    background-color: white;
+                .li-1:hover{
+                    background-color: #FFD700;
+                    transform: scale(1.12);
+                    border-radius: 5px;
+                }
+                .li-2:hover{
+                    background-color: #B22222;
+                    transform: scale(1.12);
+                    border-radius: 5px;
+                }
+                .li-3:hover{
+                    background-color: #4682B4;
+                    transform: scale(1.12);
+                    border-radius: 5px;
+                }
+                .li-4:hover{
+                    background-color: #6B8E23;
                     transform: scale(1.12);
                     border-radius: 5px;
                 }
@@ -110,8 +125,59 @@ body{
                     color: white;
                 }
             }
-                
+        }
 
+        .main-info-empresa{
+            .main-info-1{
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                article{
+                    width: 70%;
+                    transition: 0.6s;
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 20px;
+                        padding: 0 50px 0 50px;
+                    }
+                }
+                article:hover{
+                    transform: scale(1.02);
+                }
+                div{
+                    transition: 0.6s;
+                }
+                div:hover{
+                    transform: scale(1.02);
+                }
+            }
+            .main-info-2{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                div{
+                    transition: 0.6s;
+                }
+                div:hover{
+                    transform: scale(1.02);
+                }
+                article{
+                    width: 70%;
+                    transition: 0.6s;
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 20px;
+                        padding: 0 50px 0 50px;
+                    }
+                }
+                article:hover{
+                    transform: scale(1.02);
+                }
+            }
         }
     }
 
@@ -252,6 +318,15 @@ body{
                 }
 
             }
+            .main-info-empresa{
+                .main-info-1{
+                    flex-direction: column;
+                }
+                .main-info-2{
+                    flex-direction: column-reverse;
+                    margin-top: 20px;
+                }
+            }   
         }
 
         footer {
@@ -439,6 +514,30 @@ body{
                     font-size: 40px;
                 }
             }
+            .main-info-empresa{
+                .main-info-1{
+                    article{
+                        width: 90%;
+                        h3{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 25px;
+                        }
+                    }
+                }
+                .main-info-2{
+                    article{
+                        width: 90%;
+                        h3{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 25px;
+                        }
+                    } 
+                }
+            }
         }
         footer{
             .footer-section1-2{
@@ -457,6 +556,9 @@ body{
 }
 @media (max-width: 672px) {
     body{
+        main{
+            
+        }
         footer{
             .footer-section1-2{
                 .footer-section1-contactos{
