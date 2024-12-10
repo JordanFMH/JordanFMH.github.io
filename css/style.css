@@ -114,6 +114,9 @@ body{
 
         .main-carrusel{
             margin: 20px 300px 20px 300px;
+            div{
+                border-radius: 10px;
+            }
             h3{
                 text-align: center;
             }
@@ -556,9 +559,6 @@ body{
 }
 @media (max-width: 672px) {
     body{
-        main{
-            
-        }
         footer{
             .footer-section1-2{
                 .footer-section1-contactos{
@@ -598,6 +598,26 @@ body{
                 width: 60%;
             }
         }
+        main{
+            .main-info-empresa{
+                .main-info-1{
+                    div{
+                        img{
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+                .main-info-2{
+                    div{
+                        img{
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 494px) {
@@ -618,7 +638,71 @@ body{
                     }  
                 }
         }
+        main{
+            .main-info-empresa{
+                .main-info-1{
+                    article{
+                        h3{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                    div{
+                        img{
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                }
+                .main-info-2{
+                    div{
+                        img{
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                    article{
+                        h3{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
         footer{
+            .footer-section1-2{
+                .footer-section1-contactos{
+                    ul{
+                        li{
+                            a{
+                                font-size: 25px;
+                                i{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer-section2-redes{
+                    ul{
+                        flex-direction: column;
+                        li{
+                            text-align: center;
+                            a{
+                                font-size: 25px;
+                                i{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             .footer-section3-direccion{
                 ul{
                     iframe{
